@@ -27,7 +27,7 @@ SECRET_KEY = 'qbhx!6zy7=nxv2*bq*eewbqr@wy!h@292bmv+mxhjbm@lcjme_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['172.17.0.2', '172.17.0.3',
-                 'http://localhost:3000', '127.0.0.1', 'localhost']
+                 'http://localhost:3000', '127.0.0.1', 'localhost', 'memorytraining.ca7wenrbvd2o.us-east-2.rds.amazonaws.com']
 
 
 # Application definition
