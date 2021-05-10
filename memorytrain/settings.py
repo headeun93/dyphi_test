@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'memorytrain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'memorytraining',
+        'NAME': 'dyphiSQL',
         'USER': 'dyphi',
         'PASSWORD': 'dyphitest1',
         'HOST': 'memorytraining.ca7wenrbvd2o.us-east-2.rds.amazonaws.com',
