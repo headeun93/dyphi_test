@@ -1,4 +1,6 @@
-# Memorytrain API 사용
+# Memorytrain API 
+
+## 단어장을 저장하고 암기하는 사이트입니다. 회원제로 운영됩니다.
 
 1. 회원가입
 
