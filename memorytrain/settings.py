@@ -26,8 +26,7 @@ SECRET_KEY = 'qbhx!6zy7=nxv2*bq*eewbqr@wy!h@292bmv+mxhjbm@lcjme_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['172.17.0.2', '172.17.0.3',
-                 'http://localhost:3000', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['eb-django-app-dev.elasticbeanstalk.com']
 
 
 # Application definition
@@ -101,10 +100,10 @@ WSGI_APPLICATION = 'memorytrain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'memorytraining',
-        'USER': 'root',
-        'PASSWORD': 'fishbreadbun4',
-        'HOST': '13.125.43.95',
+        'NAME': 'memorytrain',
+        'USER': 'dyphi',
+        'PASSWORD': 'dyphitest1',
+        'HOST': 'memorytraining.ca7wenrbvd2o.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
