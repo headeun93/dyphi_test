@@ -122,6 +122,7 @@ DATABASES = {
         'PASSWORD': 'dyphitest1',
         'HOST': 'memorytraining.ca7wenrbvd2o.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
     }
 }
 
