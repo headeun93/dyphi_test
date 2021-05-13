@@ -20,9 +20,6 @@ media
 *.py[cod]
 *$py.class
 
-# Django secret key
-secrets.json
-
 # C extensions
 *.so
 
